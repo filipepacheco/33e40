@@ -1,7 +1,12 @@
+body {
+    background-image: url('../img/teste2.jpg');
+    background-size: 3%;
+}
 img.imagem-main {
     width: 100%;
     position: relative;
     z-index: -1;
+    border: 2px solid #eee;
 }
 .slogan-chamada {
     text-align: center;
@@ -12,7 +17,145 @@ img.imagem-main {
     width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #000;
     font-weight: 100;
     margin-top: 8%;
+}
+.bx-wrapper {
+    max-width: 50% !important;
+    float: right;
+    margin-bottom: 0 !important;
+    /*margin-top: 10% !important;*/
+}
+.bx-wrapper img {
+    width: 100%;
+}
+.bx-wrapper .bx-pager {
+    display: none;
+}
+.jumbotron {
+    padding-bottom: 60px;
+    margin-top: 2%;
+    background-color: #eee;
+    border: 2px solid #fff;
+}
+.jumbotron p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    text-align: right;
+}
+.jumbotron h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+.social-icons {
+    text-align: center;
+    margin-top: 11%;
+}
+.social-icons h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+.fa {
+    font-size: 4em;
+    margin: 0 3%;
+    color: #969696;
+}
+.imagem-direita img {
+    width: 100%;
+}
+.time h3 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    margin: 3% auto;
+    font-size: 2.5em;
+}
+.membro {
+    text-align: center;
+}
+.equipe {
+    margin-top: 2%;
+}
+.membro img {
+    width: 40%;
+    border-radius: 50%;
+}
+#nome {
+    font-family: 'Poiret One', cursive;
+    margin: 2% auto;
+    font-size: 2em;
+}
+#sobre {
+    font-size: 1.2em;
+    margin: 0 auto;
+    font-family: 'Poiret One', cursive;
+}
+.social-media .container {
+    background-color: #fff;
+    border: 2px solid #eee;
+    padding: 0;
+}
+.imagem-direita {
+    padding-right: 0;
+}
+.container.equipe {
+    background: #fff;
+    border: 2px solid #eee;
+    padding-bottom: 2%;
+}
+.contato {
+    background-color: #EEEEF0;
+    padding: 0;
+}
+#imagem-formulario {
+    padding-left: 0;
+}
+ .imagem-logo {
+    width: 100%;
+    display: block;
+}
+#logo-form {
+    width: 25%;
+}
+.form-inline {
+    text-align: center;
+    margin-top: 5%;
+}
+#chamada-contato {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+}
+.catalogo img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #eee;
+}
+.container.catalogo {
+    background: #fff;
+    border: 2px solid #eee;
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 2%;
+}
+#modelo {
+  font-family: 'Poiret One', cursive;
+  margin: 2% auto;
+  font-size: 2em;
+}
+#descricao {
+  font-size: 1.2em;
+  margin: 0 auto;
+  font-family: 'Poiret One', cursive;
+}
+.produto {
+  margin: 1% auto;
+}
+.produto-chamada {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  margin: 0% 0 3% 0;
+  font-size: 2.5em;
 }
